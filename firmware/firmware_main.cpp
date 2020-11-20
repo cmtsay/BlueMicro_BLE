@@ -105,6 +105,8 @@ void setup() {
   //suspendLoop(); // this commands suspends the main loop.  We are no longer using the loop but scheduling things using the timers.
   stringbuffer.clear();
 
+  // turn off LEDs VCC
+  switchVCC(false);
   
 
 };
